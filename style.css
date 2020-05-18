@@ -8,40 +8,23 @@
 *::after {
   box-sizing: border-box;
 }
-header {
-  background-color: crimson;
+#chessdesk {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: darkgoldenrod;
+  border-color: 1px solid black;
 }
-body {
-  color: #f3f3f3;
+.row {
+  float: left;
 }
-nav {
-  display: inline-block;
-  background-color: rgb(250, 142, 142);
-  border: 1px solid;
-  border-color: #f3f3f3 #bbb #bbb #f3f3f3;
-  margin: 2px;
-  padding: 8px;
+.cell {
+  width: 75px;
+  height: 75px;
 }
-.about-us {
-  background-image: url(img/josh-riemer-flRN6KYpl1A-unsplash.jpg);
-  padding: 50px 150px 50px 100px;
+.cell-white {
+  background-color: white;
 }
-.article {
-  display: inline-block;
-  background-color: rgb(33, 119, 51);
-  width: 50%;
-  height: 300px;
-}
-.aside {
-  display: inline-block;
-  background-color: rgb(198, 177, 241);
-  width: 25%;
-  height: 300px;
-}
-footer {
-  background-color: rgb(69, 104, 103);
-}
-h3::first-letter {
-  font-size: 2em;
-  font-weight: 600;
+.cell-black {
+  background-color: black;
 }
