@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>BrainStorm</title>
+  </head>
+  <body>
+    <header>
+      <h1>Main Menu</h1>
+    </header>
+    
+    <h3><a href="#roles">Roles</a></h3>
+    <h3><a href="#events">Events</a></h3>
+    <h3><a href="#artifacts">Artifacts</a></h3>
+    <br />
+    <hr />
+    <br />
+    <h3 id="roles">Roles</h3>
+    <ol type="I">
+      <li>Product owner</li>
+      <li>
+        Scrum master
+      </li>
+      <li>
+        Development team
+      </li>
+    </ol>
+    <h3 id="events">Events</h3>
+    <ol type="A">
+      <li>Sprint</li>
+      <li>Sprint Planning</li>
+      <li>Daily Scrum</li>
+      <li>Sprint Review</li>
+      <li>Sprint Retrospective</li>
+      <li>Product Backlog Grooming</li>
+    </ol>
+    <h3 id="artifacts">The 3 Scrum artifacts</h3>
+    <ul>
+      <li>
+        Product Backlog: The Product Backlog is an ordered list of user
+        requirements.
+      </li>
+      <li>
+        Sprint Backlog: Sprint Backlog is created by the team members during the
+        Sprint Planning meeting.
+      </li>
+      <li>
+        Sprint Burndown chart: Sprint Burndown chart is used to track the
+        progress of a Sprint against a Sprint Backlog.
+      </li>
+    </ul>
+    <form action="#" method="POST" enctype="multipart/form-data">
+      <div>
+        <legend>What are you strengths?</legend>
+        <p><input type="radio" name="tech" value="techskills" />Tech skills</p>
+        <p><input type="radio" name="soft" value="softskills" />Soft skills</p>
+      </div>
+      <div>
+        <legend>Tell about your softskills</legend>
+        <p>
+          <input type="checkbox" name="problem solving" value="yes" />Problems
+          solving
+        </p>
+        <p><input type="checkbox" name="leadership" value="yes" />Leadership</p>
+        <p>
+          <input type="checkbox" name="emotion" value="yes" />Emotional
+          intelligence
+        </p>
+        <p>
+          <input
+            type="checkbox"
+            name="communication"
+            value="yes"
+          />Communication skills
+        </p>
+      </div>
+      <div>
+        <p><input type="file" name="file" /></p>
+      </div>
+      <div>
+        <p>Select you English language level:</p>
+        <select name="level">
+          <option value="no">No knowledge of English</option>
+          <option value="elementary">Elementary level of English</option>
+          <option value="low">Low intermediate level of English</option>
+          <option selected value="high intermediate"
+            >High intermediate level of English</option
+          >
+          <option value="Advanced">Advanced level of English</option>
+          <option value="Proficient">Proficient in English</option>
+        </select>
+      </div>
+      <br /><br />
+      <div>
+        <legend>Tell about yourself</legend>
+        <textarea
+          placeholder="Any additional information about you"
+          name="text"
+        ></textarea>
+      </div>
+      <button type="submit">Send</button>
+    </form>
+    <p>&copy; Lyolik &amp; Bolik 2020.</p>
+    <a target="_blank" href="https://dou.ua/">Go to New Life</a>
+  </body>
+</html>
+  </body>
+</html>
