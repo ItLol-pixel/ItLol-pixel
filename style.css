@@ -41,3 +41,7 @@ nav {
 footer {
   background-color: rgb(69, 104, 103);
 }
+h3::first-letter {
+  font-size: 2em;
+  font-weight: 600;
+}
