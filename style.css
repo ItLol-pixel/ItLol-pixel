@@ -3,11 +3,6 @@
   padding: 0;
   border: 0;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 #chessdesk {
   width: 600px;
   height: 600px;
