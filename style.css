@@ -4,18 +4,21 @@
   border: 0;
 }
 #chessdesk {
-  width: 600px;
-  height: 600px;
+  width: 800px;
+  height: 800px;
   margin: 0 auto;
   background-color: darkgoldenrod;
   border-color: 1px solid black;
+  display: table;
 }
 .row {
   float: left;
+  display: table-row;
 }
 .cell {
   width: 75px;
   height: 75px;
+  display: table-cell;
 }
 .cell-white {
   background-color: white;

@@ -1,0 +1,20 @@
+.position {
+  position: relative;
+  background-image: url(img/alex-knight-2EJCSULRwC8-unsplash.jpg);
+}
+div.a {
+  position: absolute;
+  z-index: 100;
+}
+div.b {
+  position: absolute;
+  z-index: 90;
+}
+div.c {
+  position: absolute;
+  z-index: 70;
+}
+div.d {
+  position: absolute;
+  z-index: 60;
+}
