@@ -4,10 +4,9 @@
   border: 0;
 }
 #chessdesk {
-  width: 800px;
-  height: 800px;
+  width: 600px;
+  height: 600px;
   margin: 0 auto;
-  background-color: darkgoldenrod;
   border-color: 1px solid black;
   display: table;
 }
