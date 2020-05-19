@@ -3,11 +3,21 @@
   padding: 0;
   border: 0;
 }
-#chessdesk {
-  width: 600px;
-  height: 600px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
   margin: 0 auto;
-  border-color: 1px solid black;
+}
+#chessdesk {
+  width: 653.2px;
+  height: 620px;
+  margin: 0 auto;
+  border: 1px solid black;
   display: table;
 }
 .row {
@@ -18,10 +28,38 @@
   width: 75px;
   height: 75px;
   display: table-cell;
+  table-layout: fixed;
 }
 .cell-white {
-  background-color: white;
+  background-color: rgb(248, 226, 184);
 }
 .cell-black {
-  background-color: black;
+  background-color: rgb(66, 46, 16);
+}
+/** подпись 123**/
+.number {
+  width: 25px;
+  height: 75px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  empty-cells: show;
+  background-color: rgb(248, 202, 145);
+}
+/** подпись ABC**/
+.thead {
+  float: left;
+  display: table-header-group;
+}
+.cell-head {
+  width: 75px;
+  height: 2px;
+  display: table-cell;
+  clear: left;
+  text-align: right;
+  background-color: rgb(248, 202, 145);
+}
+.tfoot {
+  float: left;
+  display: table-footer-group;
 }
